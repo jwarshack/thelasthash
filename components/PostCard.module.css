@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(109, 109, 109);
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-family: 'IBM Plex Serif', serif;
+}
